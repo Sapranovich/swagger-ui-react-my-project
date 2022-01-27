@@ -7,7 +7,6 @@ const SwaggerUI = () => {
     SwaggerUi({
       dom_id: "#swaggerContainer",
       url: "https://raw.githubusercontent.com/Sapranovich/swagger-ui-react-my-project/main/swagger.yml",
-      // presets: [presets.apis]
     });
   }, []);
   return <div id="swaggerContainer" />;
